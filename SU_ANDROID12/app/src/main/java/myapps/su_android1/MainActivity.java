@@ -24,7 +24,6 @@ public class MainActivity extends AppCompatActivity {
         public void onClick(View v) {
             Intent intentDetail = new Intent (MainActivity.this, DetailsActivity.class);
             startActivity(intentDetail);
-            finish();
         }
 
     };

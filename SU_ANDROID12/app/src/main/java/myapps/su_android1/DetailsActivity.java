@@ -30,8 +30,6 @@ public class DetailsActivity extends Activity {
     private View.OnClickListener cancelLayout = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
-            Intent intentReturn = new Intent (DetailsActivity.this, MainActivity.class);
-            startActivity(intentReturn);
             finish();
         }
     };
@@ -39,8 +37,6 @@ public class DetailsActivity extends Activity {
     private View.OnClickListener okLayout = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
-            Intent intentReturnok = new Intent (DetailsActivity.this, MainActivity.class);
-            startActivity(intentReturnok);
             finish();
         }
     };
