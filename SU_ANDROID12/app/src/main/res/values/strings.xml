@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SU_ANDROID1</string>
+    <string name="inscription">Inscription</string>
+    <string name="nom">NOM</string>
+    <string name="prenom">PRENOM</string>
+    <string name="EMAIL">EMAIL</string>
+    <string name="password">PASSWORD</string>
+    <string name="phone_number">PHONE NUMBER</string>
+    <string name="OK">OK</string>
+    <string name="CANCEL">CANCEL</string>
+</resources>
