@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.guillaume.tp2_android_database.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            app:srcCompat="@drawable/iconedb" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="367dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/btn_registerUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="REGISTER USER" />
+
+        <Button
+            android:id="@+id/btn_registerAnimal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="REGISTER ANIMALS" />
+
+        <Button
+            android:id="@+id/btn_searchUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SEARCH USER" />
+
+        <Button
+            android:id="@+id/btn_searchUserListSplinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SEARCH USER LIST - SPLINNER" />
+
+        <Button
+            android:id="@+id/btn_searchUserListview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SEARCH USER LIST - LISTVIEW" />
+
+        <Button
+            android:id="@+id/btn_searchAnimal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SEARCH ANIMALS" />
+
+        <Button
+            android:id="@+id/btn_listRecycler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LIST WITH RECYCLER" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
