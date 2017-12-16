@@ -7,35 +7,39 @@ import java.io.Serializable;
  */
 
 public class User implements Serializable {
-    //Definiion variables
 
-    private Integer id;
-    private String prenom;
-    private String telephon;
+    private int id;
+    private String name;
+    private String phone;
+
+    public User(){}
+
+    public User(int id, String name, String phone){
+        this.id = id;
+        this.name = name;
+        this.phone = phone;
+    }
 
     public Integer getId() {
         return id;
     }
-
     public void setId(Integer id) {
         this.id = id;
     }
-
-    public String getPrenom() {
-        return prenom;
+    public String getName() {
+        return name;
     }
-
-    public void setPrenom(String prenom) {
-        this.prenom = prenom;
+    public void setName(String name) {
+        this.name = name;
     }
-
-    public String getTelephon() {
-        return telephon;
+    public String getPhone() {
+        return phone;
     }
-
-    public void setTelephon(String telephon) {
-        this.telephon = telephon;
+    public void setPhone(String phone) {
+        this.phone = phone;
     }
-    // private String nomAnimaux
+    public String toString(){
+        return "ID : "+id+"\nName : "+name+"\nPhone :"+phone;
+    }
 
 }

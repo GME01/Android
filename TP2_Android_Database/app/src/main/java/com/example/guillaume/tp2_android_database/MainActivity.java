@@ -19,6 +19,11 @@ public class MainActivity extends AppCompatActivity {
             btn_registerUser.setOnClickListener(registerUserLayout);
         }
 
+        Button btn_registerPet = findViewById(R.id.btn_registerPet);
+        if (btn_registerPet != null){
+            btn_registerPet.setOnClickListener(registerPetLayout);
+        }
+
     }
 
 
@@ -30,4 +35,13 @@ public class MainActivity extends AppCompatActivity {
         }
 
     };
+
+    private View.OnClickListener registerPetLayout = new View.OnClickListener(){
+        @Override
+        public void onClick(View v){
+            Intent intentRegisterPet = new Intent(MainActivity.this, RegisterPet.class);
+            startActivity(intentRegisterPet);
+        }
+    };
+
 }

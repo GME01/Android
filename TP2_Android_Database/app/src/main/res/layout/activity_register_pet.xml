@@ -22,35 +22,35 @@
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="REGISTER USERS"
+            android:text="REGISTER PET"
             android:textSize="25dp" />
 
         <EditText
-            android:id="@+id/editTextUserId"
+            android:id="@+id/editTextPetName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
             android:ems="10"
-            android:hint="ID"
+            android:hint="PET NAME"
+            android:inputType="text|number" />
+
+        <EditText
+            android:id="@+id/editTextPetSpecies"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:hint="PET SPECIES"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editTextPetOwnerId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:hint="OWNER ID"
             android:inputType="number" />
-
-        <EditText
-            android:id="@+id/editTextUserName"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:ems="10"
-            android:hint="NAME"
-            android:inputType="textPersonName" />
-
-        <EditText
-            android:id="@+id/editTextUserPhone"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:ems="10"
-            android:hint="PHONE"
-            android:inputType="textPersonName" />
 
     </LinearLayout>
 
@@ -62,22 +62,21 @@
         app:layout_constraintStart_toStartOf="parent">
 
         <Button
-            android:id="@+id/btn_validateUser"
+            android:id="@+id/btn_validatePet"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
-            android:layout_marginEnd="23dp"
-            android:layout_toStartOf="@+id/btn_cancelUser"
             android:text="VALIDATE" />
 
         <Button
-            android:id="@+id/btn_cancelUser"
+            android:id="@+id/btn_cancelPet"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignBaseline="@+id/btn_validateUser"
-            android:layout_alignBottom="@+id/btn_validateUser"
+            android:layout_alignBaseline="@+id/btn_validatePet"
+            android:layout_alignBottom="@+id/btn_validatePet"
             android:layout_alignParentEnd="true"
-            android:layout_marginEnd="24dp"
+            android:layout_marginEnd="25dp"
             android:text="CANCEL" />
 
     </RelativeLayout>

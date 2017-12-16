@@ -40,10 +40,10 @@
             android:text="REGISTER USER" />
 
         <Button
-            android:id="@+id/btn_registerAnimal"
+            android:id="@+id/btn_registerPet"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="REGISTER ANIMALS" />
+            android:text="REGISTER PET" />
 
         <Button
             android:id="@+id/btn_searchUser"
@@ -64,10 +64,10 @@
             android:text="SEARCH USER LIST - LISTVIEW" />
 
         <Button
-            android:id="@+id/btn_searchAnimal"
+            android:id="@+id/btn_searchPet"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="SEARCH ANIMALS" />
+            android:text="SEARCH PET" />
 
         <Button
             android:id="@+id/btn_listRecycler"
